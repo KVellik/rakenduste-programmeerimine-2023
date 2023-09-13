@@ -60,4 +60,29 @@ const newArray = numberArray.map((element) => element + 5)
 
 // Filter 
 
-// const filteredArray = numberArray.filter()
+const filteredArray = numberArray.filter(element => element < 4)
+
+console.log({numberArray, filteredArray})
+
+
+/* const data = names.map(name => {
+    return {
+        name: ...
+    }
+}) */
+
+
+// const data = names.map(name => ({name: ...}))
+
+const names = ["Juku", "Mari", "Jaan", "Anni"]
+
+const data = names.map(name => {
+    return {
+        name: name,
+        age: name.length + 20,
+        email: `${name}@company.com`,
+        address: `${name} Street 55`,
+        username: name.split("").reverse("").join("")
+    }
+})
+console.log({data})
