@@ -1,3 +1,3 @@
-<h2>
+<h3>
   https://github.com/KVellik/solid-parakeet
-</h2>
+</h3>
